@@ -8,6 +8,7 @@
 
 #import "LAListViewController.h"
 #import "LAItemCell.h"
+#import "LASpringyCollectionViewFlowLayout.h"
 
 static NSString * const cellIdentifier = @"ItemCell";
 
@@ -22,6 +23,20 @@ static NSString * const cellIdentifier = @"ItemCell";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.collectionView.collectionViewLayout = [[LASpringyCollectionViewFlowLayout alloc] init];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self.collectionView.collectionViewLayout invalidateLayout];
+}
+
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    [(LASpringyCollectionViewFlowLayout*)self.collectionView.collectionViewLayout removeBehaviors];
+    [self.collectionView.collectionViewLayout invalidateLayout];
 }
 
 #pragma mark - UICollectionViewDataSource

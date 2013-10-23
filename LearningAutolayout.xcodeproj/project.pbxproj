@@ -22,6 +22,7 @@
 		A7698B7E18116F1200F701E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7698B7C18116F1200F701E2 /* InfoPlist.strings */; };
 		A7698B8018116F1200F701E2 /* LearningAutolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7698B7F18116F1200F701E2 /* LearningAutolayoutTests.m */; };
 		A7698B8B1811748700F701E2 /* LAItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7698B8A1811748700F701E2 /* LAItemCell.m */; };
+		CFB772321817659000D6766F /* LASpringyCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB772311817659000D6766F /* LASpringyCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		A7698B7F18116F1200F701E2 /* LearningAutolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningAutolayoutTests.m; sourceTree = "<group>"; };
 		A7698B891811748700F701E2 /* LAItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAItemCell.h; sourceTree = "<group>"; };
 		A7698B8A1811748700F701E2 /* LAItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAItemCell.m; sourceTree = "<group>"; };
+		CFB772301817659000D6766F /* LASpringyCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LASpringyCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		CFB772311817659000D6766F /* LASpringyCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LASpringyCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				A7698B5B18116F1200F701E2 /* Supporting Files */,
 				A7698B891811748700F701E2 /* LAItemCell.h */,
 				A7698B8A1811748700F701E2 /* LAItemCell.m */,
+				CFB772301817659000D6766F /* LASpringyCollectionViewFlowLayout.h */,
+				CFB772311817659000D6766F /* LASpringyCollectionViewFlowLayout.m */,
 			);
 			path = LearningAutolayout;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				A7698B6118116F1200F701E2 /* main.m in Sources */,
 				A7698B6518116F1200F701E2 /* LAAppDelegate.m in Sources */,
 				A7698B6B18116F1200F701E2 /* LAListViewController.m in Sources */,
+				CFB772321817659000D6766F /* LASpringyCollectionViewFlowLayout.m in Sources */,
 				A7698B8B1811748700F701E2 /* LAItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +475,7 @@
 				A7698B8518116F1200F701E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7698B8618116F1200F701E2 /* Build configuration list for PBXNativeTarget "LearningAutolayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +484,7 @@
 				A7698B8818116F1200F701E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
